@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Helvetica Neue", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+}
