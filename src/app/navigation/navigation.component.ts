@@ -10,22 +10,22 @@ import { Component } from '@angular/core';
           <div class="nav-main">
             <ul class="header-list">
               <li class="header-list-item">
-                <a href="#">
+                <a routerLink="catalog">
                   <img alt="FLN U Logo" class="logo" src="../assets/images/LOGO_TRANSPARENT.png">
                 </a>
               </li>
               <li class="header-list-item">
-                <a class="active" href="#">Catalog</a>
+                <a routerLink="catalog" routerLinkActive="active">Catalog</a>
               </li>
               <li class="header-list-item">
-                <a href="#">About</a>
+                <a routerLink="about" routerLinkActive="active">About</a>
               </li>
             </ul>
           </div>
           <div class="nav-user">
             <ul class="header-list">
               <li class="header-list-item">Hi, <span class="name">{{ name }}</span>!</li>
-              <li class="header-list-item"><a href="#" id="logout" class="muted">Logout</a></li>
+              <li class="header-list-item"><a id="logout" class="muted">Logout</a></li>
             </ul>
           </div>
         </div>
