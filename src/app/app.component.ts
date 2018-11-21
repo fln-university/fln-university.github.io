@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
   template: `
     <fln-u-navigation></fln-u-navigation>
+    <router-outlet></router-outlet>
   `
 })
 export class AppComponent {
